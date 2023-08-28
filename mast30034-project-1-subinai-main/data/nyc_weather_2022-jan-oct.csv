@@ -1,0 +1,187 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>NOAA Severe Weather Data Inventory | Kaggle</title>
+  <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+  <meta name="description" content="From NOAA Updated Data" />
+  <meta name="turbolinks-cache-control" content="no-cache" />
+    <meta name="keywords" content="weather and climate" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta name="theme-color" content="#008ABC" />
+  <script nonce="D&#x2B;0/rRBqiWytqQg0YF0R6Q==" type="text/javascript">
+    window["pageRequestStartTime"] = 1692535165163;
+    window["pageRequestEndTime"] = 1692535165301;
+    window["initialPageLoadStartTime"] = new Date().getTime();
+  </script>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
+  <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons&display=block"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons&display=block"
+    rel="stylesheet" media="print" id="async-google-font-1" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="stylesheet" media="print" id="async-google-font-2" />
+  <script nonce="D&#x2B;0/rRBqiWytqQg0YF0R6Q==" type="text/javascript">
+    const styleSheetIds = ["async-google-font-1", "async-google-font-2"];
+    styleSheetIds.forEach(function (id) {
+      document.getElementById(id).addEventListener("load", function() {
+        this.media = "all";
+      });
+    });
+  </script>
+
+    <link rel="canonical" href="/datasets/noaa/noaa-severe-weather-data-inventory" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/vendor.css?v=dd064d680b3ca5c8a76b" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=c5ea368bfe8bd6c8f533" />
+  
+    
+ 
+      <script nonce="D&#x2B;0/rRBqiWytqQg0YF0R6Q==">
+        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+    </script>
+    <script nonce="D&#x2B;0/rRBqiWytqQg0YF0R6Q==">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-T7QHS60L4Q', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Datasets'
+        });
+    </script>
+    <script nonce="D&#x2B;0/rRBqiWytqQg0YF0R6Q==" async src="https://www.googletagmanager.com/gtag/js?id=G-T7QHS60L4Q"></script>
+
+  
+    
+    <meta property="og:url" content="/datasets/noaa/noaa-severe-weather-data-inventory" />
+    <meta property="og:title" content="NOAA Severe Weather Data Inventory" />
+    <meta property="og:description" content="From NOAA Updated Data" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://storage.googleapis.com/kaggle-datasets-images/55788/106990/750e89a8b90e27c2415b7e9c9af08b07/dataset-card.jpg?t=2018-10-03-07-27-47" />
+    <meta property="fb:app_id" content="2665027677054710" />
+
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@kaggledatasets" />
+        <meta name="twitter:creator" content="@NOAA" />
+
+
+  <meta name="twitter:site" content="@Kaggle" /> 
+  
+    
+    <script nonce="D+0/rRBqiWytqQg0YF0R6Q==" type="application/ld+json">{"@context":"http://schema.org/","@type":"Dataset","name":"NOAA Severe Weather Data Inventory","description":"* Update Frequency: Weekly\n\nData from this dataset can be downloaded/accessed through this dataset page and Kaggle's [API](https://github.com/Kaggle/kaggle-api).\n\n### Context\n\nSevere weather is defined as a destructive storm or weather. It is usually applied to local, intense, often damaging storms such as thunderstorms, hail storms, and tornadoes, but it can also describe more widespread events such as tropical systems, blizzards, nor'easters, and derechos.  \n\nThe Severe Weather Data Inventory (SWDI) is an integrated database of severe weather records for the United States. The records in SWDI come from a variety of sources in the NCDC archive. SWDI provides the ability to search through all of these data to find records covering a particular time period and geographic region, and to download the results of your search in a variety of formats. The formats currently supported are Shapefile (for GIS), KMZ (for Google Earth), CSV (comma-separated), and XML.\n\n### Content\n\nThe current data layers in SWDI are:  \n- Filtered Storm Cells (Max Reflectivity &gt;= 45 dBZ) from NEXRAD (Level-III Storm Structure Product)  \n- All Storm Cells from NEXRAD (Level-III Storm Structure Product)  \n- Filtered Hail Signatures (Max Size &gt; 0 and Probability = 100%) from NEXRAD (Level-III Hail Product)  \n- All Hail Signatures from NEXRAD (Level-III Hail Product)  \n- Mesocyclone Signatures from NEXRAD (Level-III Meso Product)  \n- Digital Mesocyclone Detection Algorithm from NEXRAD (Level-III MDA Product)  \n- Tornado Signatures from NEXRAD (Level-III TVS Product)  \n- Preliminary Local Storm Reports from the NOAA National Weather Service  \n- Lightning Strikes from Vaisala NLDN  \n\n**Disclaimer:**  \nSWDI provides a uniform way to access data from a variety of sources, but it does not provide any additional quality control beyond the processing which took place when the data were archived. The data sources in SWDI will not provide complete severe weather coverage of a geographic region or time period, due to a number of factors (eg, reports for a location or time period not provided to NOAA). The absence of SWDI data for a particular location and time should not be interpreted as an indication that no severe weather occurred at that time and location. Furthermore, much of the data in SWDI is automatically derived from radar data and represents probable conditions for an event, rather than a confirmed occurrence.\n\n\n### Acknowledgements\n\nDataset Source: NOAA.  This dataset is publicly available for anyone to use under the following terms provided by the Dataset Source — http://www.data.gov/privacy-policy#data_policy — and is provided \"AS IS\" without any warranty, express or implied, from Google. Google disclaims all liability for any damages, direct or indirect, resulting from the use of the dataset.\n\n[Cover photo](https://unsplash.com/photos/i9w4Uy1pU-s) by [NASA](https://unsplash.com/@nasa) on [Unsplash](https://unsplash.com/)  \n_Unsplash Images are distributed under a unique [Unsplash License](https://unsplash.com/license)._","url":"https://www.kaggle.com/noaa/noaa-severe-weather-data-inventory","version":7,"keywords":["subject, earth and nature, environment, weather and climate"],"license":{"@type":"CreativeWork","name":"CC0: Public Domain","url":"https://creativecommons.org/publicdomain/zero/1.0/"},"identifier":["55788"],"includedInDataCatalog":{"@type":"DataCatalog","name":"Kaggle","url":"https://www.kaggle.com"},"creator":{"@type":"Organization","name":"NOAA","url":"https://www.kaggle.com/noaa","image":"https://storage.googleapis.com/kaggle-organizations/22/thumbnail.jpg%3Fr=167"},"distribution":[{"@type":"DataDownload","requiresSubscription":true,"encodingFormat":"zip","fileFormat":"zip","contentUrl":"https://www.kaggle.com/datasets/noaa/noaa-severe-weather-data-inventory/download?datasetVersionNumber=7","contentSize":"0 bytes"}],"commentCount":2,"dateModified":"2019-06-02T12:28:39.777Z","discussionUrl":"https://www.kaggle.com/noaa/noaa-severe-weather-data-inventory/discussion","alternateName":"From NOAA Updated Data","isAccessibleForFree":true,"thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/55788/106990/750e89a8b90e27c2415b7e9c9af08b07/dataset-card.jpg?t=2018-10-03-07-27-47","interactionStatistic":[{"@type":"InteractionCounter","interactionType":"http://schema.org/CommentAction","userInteractionCount":2},{"@type":"InteractionCounter","interactionType":"http://schema.org/DownloadAction","userInteractionCount":876},{"@type":"InteractionCounter","interactionType":"http://schema.org/ViewAction","userInteractionCount":13687},{"@type":"InteractionCounter","interactionType":"http://schema.org/LikeAction","userInteractionCount":18}]}</script>
+
+
+  
+    
+
+  
+    
+
+
+    <script nonce="D&#x2B;0/rRBqiWytqQg0YF0R6Q==">window['useKaggleAnalytics'] = true;</script>
+
+  <script id="gapi-target" nonce="D&#x2B;0/rRBqiWytqQg0YF0R6Q==" src="https://apis.google.com/js/api.js" defer
+    async></script>
+  <script nonce="D+0/rRBqiWytqQg0YF0R6Q==" src="/static/assets/runtime.js?v=b0dc7e961cc26682c8b8" data-turbolinks-track="reload"></script>
+  <script nonce="D+0/rRBqiWytqQg0YF0R6Q==" src="/static/assets/vendor.js?v=4306927b086ff81d87b2" data-turbolinks-track="reload"></script>
+  <script nonce="D+0/rRBqiWytqQg0YF0R6Q==" src="/static/assets/app.js?v=14afbb05b51e5d606956" data-turbolinks-track="reload"></script>
+    <script nonce="D&#x2B;0/rRBqiWytqQg0YF0R6Q==" type="text/javascript">
+      window.kaggleStackdriverConfig = {
+        key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',
+        projectId: 'kaggle-161607',
+        service: 'web-fe',
+        version: 'ci',
+        userId: '0'
+      }
+    </script>
+</head>
+
+<body data-turbolinks="false">
+  <main>
+    
+
+
+
+
+
+<div id="site-container"></div>
+
+<div id="site-body" class="hide">
+    
+
+<div data-component-name="DatasetMaterialContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="D+0/rRBqiWytqQg0YF0R6Q==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"basics":{"datasetId":55788,"slug":"noaa-severe-weather-data-inventory","title":"NOAA Severe Weather Data Inventory","description":"* Update Frequency: Weekly\n\nData from this dataset can be downloaded/accessed through this dataset page and Kaggle\u0027s [API](https://github.com/Kaggle/kaggle-api).\n\n### Context\n\nSevere weather is defined as a destructive storm or weather. It is usually applied to local, intense, often damaging storms such as thunderstorms, hail storms, and tornadoes, but it can also describe more widespread events such as tropical systems, blizzards, nor\u0027easters, and derechos.  \n\nThe Severe Weather Data Inventory (SWDI) is an integrated database of severe weather records for the United States. The records in SWDI come from a variety of sources in the NCDC archive. SWDI provides the ability to search through all of these data to find records covering a particular time period and geographic region, and to download the results of your search in a variety of formats. The formats currently supported are Shapefile (for GIS), KMZ (for Google Earth), CSV (comma-separated), and XML.\n\n### Content\n\nThe current data layers in SWDI are:  \n- Filtered Storm Cells (Max Reflectivity \u0026gt;= 45 dBZ) from NEXRAD (Level-III Storm Structure Product)  \n- All Storm Cells from NEXRAD (Level-III Storm Structure Product)  \n- Filtered Hail Signatures (Max Size \u0026gt; 0 and Probability = 100%) from NEXRAD (Level-III Hail Product)  \n- All Hail Signatures from NEXRAD (Level-III Hail Product)  \n- Mesocyclone Signatures from NEXRAD (Level-III Meso Product)  \n- Digital Mesocyclone Detection Algorithm from NEXRAD (Level-III MDA Product)  \n- Tornado Signatures from NEXRAD (Level-III TVS Product)  \n- Preliminary Local Storm Reports from the NOAA National Weather Service  \n- Lightning Strikes from Vaisala NLDN  \n\n**Disclaimer:**  \nSWDI provides a uniform way to access data from a variety of sources, but it does not provide any additional quality control beyond the processing which took place when the data were archived. The data sources in SWDI will not provide complete severe weather coverage of a geographic region or time period, due to a number of factors (eg, reports for a location or time period not provided to NOAA). The absence of SWDI data for a particular location and time should not be interpreted as an indication that no severe weather occurred at that time and location. Furthermore, much of the data in SWDI is automatically derived from radar data and represents probable conditions for an event, rather than a confirmed occurrence.\n\n\n### Acknowledgements\n\nDataset Source: NOAA.  This dataset is publicly available for anyone to use under the following terms provided by the Dataset Source \u2014 http://www.data.gov/privacy-policy#data_policy \u2014 and is provided \u0022AS IS\u0022 without any warranty, express or implied, from Google. Google disclaims all liability for any damages, direct or indirect, resulting from the use of the dataset.\n\n[Cover photo](https://unsplash.com/photos/i9w4Uy1pU-s) by [NASA](https://unsplash.com/@nasa) on [Unsplash](https://unsplash.com/)  \n_Unsplash Images are distributed under a unique [Unsplash License](https://unsplash.com/license)._","viewCount":13687,"downloadCount":876,"scriptCount":4,"topicCount":2,"owner":{"id":22,"imageUrl":"https://storage.googleapis.com/kaggle-organizations/22/thumbnail.jpg%3Fr=167","organization":true,"name":"NOAA","organizationMemberCount":5,"profileUrl":"/noaa","slug":"noaa","userTier":"STAFF"},"license":{"id":1,"name":"CC0: Public Domain","url":"https://creativecommons.org/publicdomain/zero/1.0/"},"overview":"From NOAA Updated Data","collaboratorList":{"owner":{"groupId":22,"groupMemberCount":5,"profileUrl":"/noaa","thumbnailUrl":"https://storage.googleapis.com/kaggle-organizations/22/thumbnail.jpg%3Fr=167","name":"NOAA","slug":"noaa","userTier":"STAFF","type":"OWNER"}},"coverImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/55788/106990/750e89a8b90e27c2415b7e9c9af08b07/dataset-cover.jpg?t=2018-10-03-07-27-47","data":{"isFileset":true,"firestorePath":"qY5JOMsDLukk5Hf6NTfY/versions/5sPO9X56ZTPugVn0oD3K","downloadUrl":"/datasets/noaa/noaa/download?datasetVersionNumber=7","versionId":481061,"id":65495},"voteCount":18,"downloadUrl":"/datasets/noaa/noaa-severe-weather-data-inventory/download?datasetVersionNumber=7","lastUpdateTime":"2019-06-02T12:28:39.777Z","datasetVersionNumber":7,"creatorDisplayName":"Kaggle Team","cardImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/55788/106990/750e89a8b90e27c2415b7e9c9af08b07/dataset-card.jpg?t=2018-10-03-07-27-47","categories":{"tags":[{"id":7408,"name":"weather and climate","fullPath":"subject \u003E earth and nature \u003E environment \u003E weather and climate","listingUrl":"/datasets?group=public\u0026tagids=7408","description":"Weather datasets and kernels come in all wind speeds and directions. You have weather data about hurricanes and other inclement phenomena, hourly readings, and general weather for various cities.","datasetCount":939,"competitionCount":5,"notebookCount":494,"tagUrl":"/tags/weather","displayName":"Weather and Climate"}]},"datasetExternalUrl":"https://www.kaggle.com/datasets/noaa/noaa-severe-weather-data-inventory","ownerTwitter":"NOAA","forumId":64553,"datasetVersionId":465234,"canCreateTasks":true,"moderationStatus":"PRIVATED_MODERATION_STATUS_NO_ABUSE","lastVersionNumber":7,"diffType":"VERSIONED","contentState":"PUBLISHED"},"accessedViaHashLink":false});performance && performance.mark && performance.mark("DatasetMaterialContainer.componentCouldBootstrap");</script><script nonce="D&#x2B;0/rRBqiWytqQg0YF0R6Q==" type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+    preferredFont: "TeX",
+    availableFonts: ["STIX", "TeX"],
+    linebreaks: {
+    automatic: true
+    },
+    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+    inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    ignoreClass: "tex2jax_ignore|dno"
+    },
+    TeX: {
+    noUndefined: {
+    attributes: {
+    mathcolor: "red",
+    mathbackground: "#FFEEEE",
+    mathsize: "90%"
+    }
+    }
+    },
+    Macros: {
+    href: "{}"
+    },
+    skipStartupTypeset: true,
+    messageStyle: "none",
+    extensions: ["Safe.js"],
+    });
+</script>
+<script type="text/javascript" nonce="D&#x2B;0/rRBqiWytqQg0YF0R6Q==">
+  window.addEventListener("DOMContentLoaded", () => {
+    const head = document.getElementsByTagName("head")[0];
+    const useProdHosts = ["www.kaggle.com", "admin.kaggle.com"];
+    const subdomain = useProdHosts.includes(window.location.hostname) ? "www" : "staging";
+
+    const lib = document.createElement("script");
+    lib.type = "text/javascript";
+    lib.src = `https://${subdomain}.kaggleusercontent.com/static/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML`;
+    head.appendChild(lib);
+  });
+</script>
+
+
+
+
+
+</div>
+
+
+
+
+  </main>
+</body>
+
+</html>
