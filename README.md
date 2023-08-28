@@ -1,6 +1,5 @@
 # MAST30034 Project 1 README.md
 - Name: Subin Seol
-- Student ID: 1086852
 
 **Research Goal:** My research goal is to maximise the profit of the yellow taxi drivers.
 
