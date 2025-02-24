@@ -1,7 +1,5 @@
-# MAST30034 Project 1 README.md
-- Name: Subin Seol
-
-**Research Goal:** My research goal is to maximise the profit of the yellow taxi drivers.
+# New York Taxi Project Analysis
+My research goal is to maximise the profit of the yellow taxi drivers.
 
 **Timeline:** The timeline for the research area is 2022 January, April, July and October.
 
